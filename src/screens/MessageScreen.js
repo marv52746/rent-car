@@ -1,17 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import PickUpTime from '../component/PickUpTime'
 
 const MessageScreen = () => {
   return (
-    <View 
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}
-    >
-      <Text>MessageScreen</Text>
-    </View>
+
+    <PickUpTime />
+
   )
 }
 
